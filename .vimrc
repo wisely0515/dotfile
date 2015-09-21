@@ -79,8 +79,6 @@ endif
 " make the current window bigger
 set winheight=5
 set winminheight=5
-"set winheight=999
-
 
 " Color Scheme
 colorscheme molokai
@@ -131,9 +129,9 @@ syntax on
 " Vim indent
 filetype indent on
 set expandtab
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 
 " Vim Fold
 set foldmethod=indent
