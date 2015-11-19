@@ -44,6 +44,7 @@ Plugin 'kwaledesign/scss-snippets'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'othree/yajs.vim'
 Plugin 'hail2u/vim-css3-syntax'
+Plugin 'leafgarland/typescript-vim'
 
 " Color
 Plugin 'ap/vim-css-color'
@@ -57,6 +58,10 @@ Plugin 'einars/js-beautify'
 
 call vundle#end()
 filetype plugin indent on
+
+augroup typescript
+    autocmd BufRead,BufNewFile *.ts set filetype=typescript.javascript
+augroup END
 
 
 " Indent
