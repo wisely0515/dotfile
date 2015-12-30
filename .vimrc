@@ -38,6 +38,8 @@ Plugin 'SirVer/ultisnips'
 Plugin 'caasi/vim-react-snippets'
 Plugin 'honza/vim-snippets'
 Plugin 'kwaledesign/scss-snippets'
+Plugin 'heavenshell/vim-jsdoc'
+
 
 " Syntax
 " Plugin 'scrooloose/syntastic'
