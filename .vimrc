@@ -1,7 +1,8 @@
 set nocompatible
 filetype off
 
-set rtp+=~/wiselyVim/bundle/Vundle.vim
+set clipboard=unnamedplus
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
@@ -16,7 +17,8 @@ Plugin 'kshenoy/vim-signature'
 Plugin 'dyng/ctrlsf.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-ragtag'
 Plugin 'terryma/vim-multiple-cursors'
