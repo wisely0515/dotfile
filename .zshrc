@@ -83,5 +83,5 @@ alias instweb="python -m SimpleHTTPServer"
 alias gtree="git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 alias vi="/usr/local/bin/vim"
 
-source dnvm.sh
-
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # 讀取 NVM

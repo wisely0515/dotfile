@@ -1,7 +1,7 @@
 set nocompatible
 filetype off
 
-set clipboard=unnamedplus
+set clipboard=unnamed
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -31,6 +31,7 @@ Plugin 'tmhedberg/matchit'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'w0rp/ale'
 
 " AutoComplete
 Plugin 'Valloric/YouCompleteMe'
@@ -39,7 +40,6 @@ Plugin 'SirVer/ultisnips'
 " Snippets
 Plugin 'caasi/vim-react-snippets'
 Plugin 'honza/vim-snippets'
-Plugin 'kwaledesign/scss-snippets'
 Plugin 'heavenshell/vim-jsdoc'
 
 
@@ -48,7 +48,7 @@ Plugin 'heavenshell/vim-jsdoc'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'othree/yajs.vim'
 Plugin 'hail2u/vim-css3-syntax'
-Plugin 'leafgarland/typescript-vim'
+Plugin 'sheerun/vim-polyglot'
 
 " Color
 Plugin 'ap/vim-css-color'
@@ -138,9 +138,9 @@ syntax on
 " Vim indent
 filetype indent on
 set expandtab
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 
 " Vim Fold
 set foldmethod=indent
